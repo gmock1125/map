@@ -495,7 +495,7 @@
                 
                 statePath.addEventListener('click', () => {
                     if (stateUrls[stateId]) {
-                        window.location.href = stateUrls[stateId];
+                        window.open(stateUrls[stateId], '_blank');
                     }
                 });
             });
